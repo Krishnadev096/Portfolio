@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&family=Playfair+Display&family=Silkscreen&display=swap');
+body{
+    background-image: url("image.png");
+    background-attachment: fixed;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ 
+.navigation{
+    padding-top: 35px;
+    padding-right: 55px;
+    display: flex;
+    float: right;
+}
+.Services{
+    margin-left: 10px;
+    
+}
+.About{
+    margin-left: 10px;
+}
+.Contact{
+    margin-left: 10px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #05f5f5;
+}
+
+.body-container{
+    height: 100vh;
+    
+}
+
+.name{
+    font-family: 'Anton', sans-serif;
+    font-size: 5rem;
+    color: white;
+    padding-top: 410px;
+    padding-left: 30px;
+}
+
+.sub-text{
+    font-family: 'Josefin Sans', sans-serif;
+    color: beige;
+    font-size: 45px;
+    float: left;
+    padding-left: 30px;
+}
+
+.About-heading{
+    text-align: center;
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: #212a2950;
+    font-size: 30px;
+}
+
+.About-section{
+    background-color: #212a2950;
+    display: flex;
+    height: 50vh;
+}
+.Education{
+    width: 33%;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #18cdcc;
+    margin: 15px;
+    color: white;
+    padding: 10px;
+}
+.Address{
+    width: 33%;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #18cdcc;
+    margin: 15px;
+    color: white;
+    padding: 10px;
+}
+.Hobbies{
+    width: 33%;
+    border: 1px solid; 
+    border-radius: 10px; 
+    border-color: #18cdcc;
+    margin: 15px;
+    color: white;
+    padding: 10px;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+.Services-section{
+    height: 50vh;
+    background-color: #212a2950;
+    display: flex;  
+}
+
+.Services-heading{
+    background-color: #212a2950;
+    text-align: center;
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+    /* border: 1px solid; */
+    /* border-color: #05f5f5; */
+
+}
+.Frontend{
+    width: 33%;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #18cdcc;
+    margin: 15px;
+    color: white;
+}
+.Backend{
+    width: 33%;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #18cdcc;
+    margin: 15px;
+    color: white;
+}
+.Database{
+    width: 33%;
+    border: 1px solid; 
+    border-radius: 10px; 
+    border-color: #18cdcc;
+    margin: 15px;
+    color: white;
+}
+
+.Frontend:hover{
+    background-color: #18cdcc;
+}
+.Backend:hover{
+    background-color: #18cdcc;
+}
+.Database:hover{
+    background-color: #18cdcc;
+}
+
+.Services-section i{
+    padding-top: 122px;
+    padding-left: 225px;
+    font-size: 114px;
+}
+
+
+.Services-section i:hover{
+       font-size: 120px;
+
+}
+
+.Contact-heading{
+    text-align: center;
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: #212a2950;
+    font-size: 30px;
+}
+
+.Contact-section{
+    background-color: #212a2950;
+    height: 50vh;
+    margin: 15px;
+    display: flex;
+}
+.Socials{
+
+    width: 50%;
+    border: 1px solid; 
+    border-radius: 10px; 
+    border-color: #18cdcc;
+    color: white;
+    margin: 15px;
+  } 
+
+.form-container{
+
+    width: 50%;
+    border: 1px solid; 
+    border-radius: 10px; 
+    border-color: #18cdcc;
+    color: white;
+    margin: 15px;
+    padding: 12px;
+}
+
+input[type=text], textarea{
+    width: 99%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+  } 
+  input[type=email]{
+    width: 99%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+  }
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color:  #18cdcc;
+  }
+  .footer{
+    text-align: center;
+    background-color: #222222;
+    color: white;
+  }
+
+  .Socials-icons i{
+    padding-top: 170px;
+    padding-left: 80px;
+    font-size: 114px;
+ }
+
+ .Socials-icons i:hover{
+    color: #18cdcc;
+}
+ 
